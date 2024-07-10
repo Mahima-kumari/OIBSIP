@@ -1,0 +1,71 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.intro, .early-life, .education, .career, .presidency, .achievements, .legacy, .quotes {
+  margin-bottom: 30px;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.intro img, .section-img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 10px;
+  margin: 20px 0;
+  margin-left: 190px;
+}
+
+h2 {
+  color: #4CAF50;
+  margin-top: 0;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+blockquote {
+  font-style: italic;
+  color: #555;
+  border-left: 4px solid #4CAF50;
+  padding-left: 10px;
+  margin: 20px 0;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #4CAF50;
+  color: white;
+  width: 100%;
+  bottom: 0;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}

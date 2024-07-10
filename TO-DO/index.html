@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <a href="#" class="brand-logo">To-Do App</a>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#tasks">Tasks</a></li>
+                    <li><a href="#notes">Notes</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="welcome-section">
+        <div class="container">
+            <div class="welcome-text">
+                <h1>Welcome to the To-Do App</h1>
+                <p>This app helps you organize your tasks efficiently.</p>
+                <p>Whether you're managing personal chores, planning projects, or organizing team tasks, our app is designed to simplify your task management experience.</p>
+                <a href="#tasks" class="btn">Get Started</a>
+            </div>
+            <div class="illustration">
+                <img src="todo.jpg" alt="To-Do App Illustration">
+            </div>
+        </div>
+    </section>
+    <section id="tasks" class="tasks-section">
+        <div class="container">
+            <h2>Tasks</h2>
+            <div class="task-input">
+                <input type="text" id="new-task" placeholder="Add a new task">
+                <button id="add-task-btn">Add Task</button>
+            </div>
+            <div class="task-lists">
+                <div class="task-category pending-tasks">
+                    <h3>Pending Tasks</h3>
+                    <ul id="pending-tasks-list"></ul>
+                </div>
+                <div class="task-category completed-tasks">
+                    <h3>Completed Tasks</h3>
+                    <ul id="completed-tasks-list"></ul>
+                </div>
+            </div>
+        </div>
+    </section>  
+    <section id="notes" class="notes-section">
+        <div class="container">
+            <h2>Notes</h2>
+            <div class="note-input">
+                <textarea id="new-note" rows="4" placeholder="Write a new note"></textarea>
+                <button id="add-note-btn">Add Note</button>
+            </div>
+            <ul id="notes-list"></ul>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <p>&copy; 2024 To-Do App. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

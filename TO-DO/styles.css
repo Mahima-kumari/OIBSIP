@@ -1,0 +1,400 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: #036ae8;
+}
+
+/* Header styles */
+header {
+    background-color: #036ae8;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navbar {
+    max-width: 950px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f1f1f1;
+    text-decoration-line: underline;
+}
+
+/* Welcome section styles */
+.welcome-section {
+    padding: 40px 0;
+    background-color: #ffffff;
+    color: #111112;
+    text-align: center;
+}
+
+.welcome-section .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.welcome-text {
+    max-width: 600px;
+    text-align: left;
+}
+
+.welcome-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #036ae8;
+}
+
+.welcome-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #036ae8;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #3283e7;
+}
+
+.illustration img {
+    max-width: 110%;
+    height: auto;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+/* Task Section Styles */
+.tasks-section {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+    color: #111112;
+}
+
+.tasks-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #036ae8;
+}
+
+.task-input {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.task-input input {
+    padding: 12px;
+    font-size: 16px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.task-input button {
+    padding: 12px 24px;
+    background-color: #036ae8;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.task-input button:hover {
+    background-color: #3283e7;
+}
+
+.task-lists {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.task-category {
+    width: 45%;
+}
+
+.task-category h3 {
+    margin-bottom: 10px;
+    font-size: 28px;
+    color: #036ae8;
+}
+
+.task-category ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.task-category ul li {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task-category ul li .task-details {
+    display: flex;
+    max-width: 90%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.task-category ul li .task-details .task-time {
+    font-size: 12px;
+    color: #666;
+}
+
+.task-category ul li button {
+    margin-left: 10px;
+    padding: 8px 12px;
+    background-color: #036ae8;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.task-category ul li button:hover {
+    background-color: #3283e7;
+}
+
+.task-category ul li .complete-btn {
+    background-color: #1a8e1e;
+}
+
+.task-category ul li .complete-btn:hover {
+    background-color: #66bb6a;
+}
+
+.task-category ul li .edit-btn {
+    background-color: #ff9800;
+}
+
+.task-category ul li .edit-btn:hover {
+    background-color: #ffb74d;
+}
+
+.task-category ul li .delete-btn {
+    background-color: #f44336;
+}
+
+.task-category ul li .delete-btn:hover {
+    background-color: #e57373;
+}
+
+/* Notes Section Styles */
+.notes-section {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+    color: #111112;
+}
+
+.notes-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #036ae8;
+}
+
+.note-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.note-input textarea {
+    padding: 12px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin-right: 10px;
+}
+
+.note-input button {
+    padding: 12px 24px;
+    background-color: #036ae8;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.note-input button:hover {
+    background-color: #3283e7;
+}
+
+.notes-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.note-item {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.note-item:hover {
+    background-color: #f0f0f0;
+}
+
+.note-item .note-text {
+    flex: 1;
+    margin-right: 10px;
+    word-wrap: break-word;
+}
+
+.note-item button {
+    padding: 12px 12px;
+    background-color: #188809;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 20px;
+}
+
+.note-item button:hover {
+    background-color: #069a33;
+}
+.note-item .edit-btn {
+    background-color: #ff9800; /* Orange color */
+}
+
+.note-item .edit-btn:hover {
+    background-color: #ffa726; /* Lighter shade of orange on hover */
+}
+
+
+
+
+/* Footer Styles */
+footer {
+    background-color: #036ae8;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar ul li {
+        margin-bottom: 10px;
+    }
+
+    .welcome-section .container {
+        flex-direction: column;
+    }
+
+    .illustration img {
+        margin-left: 0;
+    }
+
+    .welcome-text {
+        text-align: center;
+    }
+
+    .task-lists {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .task-category {
+        width: 100%;
+    }
+}
